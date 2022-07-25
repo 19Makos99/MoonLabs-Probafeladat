@@ -1,0 +1,20 @@
+.label {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.center {
+  text-align: center;
+}
+
+.body {
+  background-color: lightgray;
+}
+
+.input {
+  width: 100%;
+}
+
+.space {
+  margin-bottom: 10px;
+}
