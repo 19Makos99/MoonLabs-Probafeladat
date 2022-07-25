@@ -1,6 +1,6 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useState } from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import { toast } from 'react-toastify';
 import * as yup from "yup";

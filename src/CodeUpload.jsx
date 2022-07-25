@@ -35,11 +35,11 @@ export default function CodeUpload(props) {
   const { register, watch, handleSubmit } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
-      email: "a@gmail.com",
-      code: "asdf1234",
+      email: "",
+      code: "",
       day: convertDateToValue(new Date()),
-      hour: "1",
-      minute: "1",
+      hour: "-1",
+      minute: "-1",
     }
   });
  
